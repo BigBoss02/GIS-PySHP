@@ -21,7 +21,7 @@ w.poly(parts=[[
 	[2,2],
 	[3,3],
 	[2,3]
-]],shapeType=shapefile.POLYLINE)		#membuat polygon dengan 9 koordinat dengan type polyline
+]],shapeType=shapefile.POLYGON)		#membuat polygon dengan 9 koordinat dengan type POLYGON
 
 w.poly(parts=[[
 	[4,3],
@@ -33,7 +33,7 @@ w.poly(parts=[[
 	[4,2],
 	[5,3],
 	[4,3]
-]],shapeType=shapefile.POLYLINE)		#membuat polygon dengan 9 koordinat dengan type polyline
+]],shapeType=shapefile.POLYGON)		#membuat polygon dengan 9 koordinat dengan type POLYGON
 
 w.poly(parts=[[
 	[2,1],
@@ -45,7 +45,7 @@ w.poly(parts=[[
 	[2,0],
 	[3,1],
 	[2,1]
-]],shapeType=shapefile.POLYLINE)		#membuat polygon dengan 9 koordinat dengan type polyline
+]],shapeType=shapefile.POLYGON)		#membuat polygon dengan 9 koordinat dengan type POLYGON
 
 w.poly(parts=[[
 	[4,1],
@@ -57,6 +57,6 @@ w.poly(parts=[[
 	[4,0],
 	[5,1],
 	[4,1]
-]],shapeType=shapefile.POLYLINE)		#membuat polygon dengan 9 koordinat dengan type polyline
+]],shapeType=shapefile.POLYGON)		#membuat polygon dengan 9 koordinat dengan type POLYGON
 
-w.save("soal10")						#menyimpan file shape dengan nama soal 10
+w.save("soal10")					#menyimpan file shape dengan nama soal 10
