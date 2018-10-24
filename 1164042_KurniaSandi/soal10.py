@@ -10,52 +10,53 @@ w.record("crot","dua")					#membuat record dengan parameter crot dan dua
 w.record("cret","tiga")					#membuat record dengan parameter cret dan tiga
 w.record("crut","empat")				#membuat record dengan parameter crut dan empat
 
+
 w.poly(parts=[[
-	[1,3],
-	[2,3], 
-	[2,2],
-	[1,2],
-	[1,3],
-	[2,2],
-	[1,2],
 	[2,3],
-	[1,3]
+	[3,3], 
+	[3,2],
+	[2,2],
+	[2,3],
+	[3,2],
+	[2,2],
+	[3,3],
+	[2,3]
 ]],shapeType=shapefile.POLYLINE)		#membuat polygon dengan 9 koordinat dengan type polyline
 
 w.poly(parts=[[
-	[3,3],
-	[4,3], 
-	[4,2],
-	[3,2],
-	[3,3],
-	[4,2],
-	[3,2],
 	[4,3],
-	[3,3]
+	[5,3], 
+	[5,2],
+	[4,2],
+	[4,3],
+	[5,2],
+	[4,2],
+	[5,3],
+	[4,3]
 ]],shapeType=shapefile.POLYLINE)		#membuat polygon dengan 9 koordinat dengan type polyline
 
 w.poly(parts=[[
-	[1,1],
-	[2,1], 
-	[2,0],
-	[1,0],
-	[1,1],
-	[2,0],
-	[1,0],
 	[2,1],
-	[1,1]
+	[3,1], 
+	[3,0],
+	[2,0],
+	[2,1],
+	[3,0],
+	[2,0],
+	[3,1],
+	[2,1]
 ]],shapeType=shapefile.POLYLINE)		#membuat polygon dengan 9 koordinat dengan type polyline
 
 w.poly(parts=[[
-	[3,1],
-	[4,1], 
-	[4,0],
-	[3,0],
-	[3,1],
-	[4,0],
-	[3,0],
 	[4,1],
-	[3,1]
+	[5,1], 
+	[5,0],
+	[4,0],
+	[4,1],
+	[5,0],
+	[4,0],
+	[5,1],
+	[4,1]
 ]],shapeType=shapefile.POLYLINE)		#membuat polygon dengan 9 koordinat dengan type polyline
 
 w.save("soal10")						#menyimpan file shape dengan nama soal 10
