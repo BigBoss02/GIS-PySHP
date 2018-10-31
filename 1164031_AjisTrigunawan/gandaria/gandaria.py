@@ -15,9 +15,8 @@ w.record("mprot","tujuh")
 w.record("coy","delapan")     
 w.record("cay","sembilan")     
 w.record("cuy","sapuluh")  
-w.record("cap","sebelas")     
-w.record("cup","dulas")    
-
+w.record("cap","sebelas")
+w.record("asd","asd")
 
 w.poly(parts=[[
  [-6.873931,107.575158], 
@@ -74,15 +73,6 @@ w.poly(parts=[[
 ]],shapeType=shapefile.POLYGON) 
 
 w.poly(parts=[[
- [-6.873931,107.575158], 
- [-6.873954,107.575155], 
- [-6.873948,107.575123],
- [-6.873926,107.575129], 
- [-6.873931,107.575158]
-
-]],shapeType=shapefile.POLYGON) 
-
-w.poly(parts=[[
  [-6.873948,107.575123], 
  [-6.873943,107.575095], 
  [-6.873922,107.575101],
@@ -126,6 +116,16 @@ w.poly(parts=[[
  [-6.873927,107.575010]
 
 ]],shapeType=shapefile.POLYGON) 
+
+w.poly(parts=[[
+ [-6.873929,107.575067], 
+ [-6.873927,107.575057], 
+ [-6.873920,107.575058],
+ [-6.873922,107.575068], 
+ [-6.873929,107.575067]
+
+]],shapeType=shapefile.POLYGON) 
+
  #===========================================================================================================
 
 
